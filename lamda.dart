@@ -63,6 +63,7 @@ void main() {
 
   int age = 25;
 
+
   // List of integers
   List<int> numbers = [1, 2, 3, 4, 5];
 
@@ -73,6 +74,9 @@ void main() {
   print("Age: $age");
   print("Numbers: $numbers");
   print("Is Adult: $isAdult");
+
+  List<dynamic> mixedList = [1, "Hello", true, 3.14]; // List of mixed types
+  print(mixedList); // Output: [1, Hello, true, 3.14]
 }
 
 }
